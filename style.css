@@ -78,3 +78,60 @@ img {
     color: #F9FAF8;
     font-weight: bold;
 }
+
+.random-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px 16px 80px;
+}
+
+.random-info .text {
+    font-size: 36px;
+    font-weight: bolder;
+    align-self: center;
+}
+
+.random-info .buttons {
+    display: flex;
+    justify-content: center;
+    flex-basis: 200px;
+    margin-top: 32px;
+    gap: 54px;
+}
+
+.buttons .button {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: white;
+    border-color: #3882F6;
+}
+
+.button-1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    text-align: center;
+}
+
+.button-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    text-align: center;
+}
+
+.button-3 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    text-align: center;
+}
+
+.button-4 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    text-align: center;
+}
