@@ -7,6 +7,7 @@ body {
 
 .header {
     display: flex;
+    flex-shrink: 0;
     padding: 16px;
     justify-content: space-between;
     background-color: #1F2937;
@@ -136,12 +137,19 @@ img {
     text-align: center;
 }
 
+.quote-sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: #E5E7EB;
+}
 .quote {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 600px;
     background-color: #E5E7EB;
-    padding: 100px 350px;
 }
 
 .quotation {
@@ -155,7 +163,58 @@ img {
 }
 
 .citation {
+    display: flex;
     align-self: flex-end;
     font-weight: bold;
     font-size: 20px;
+}
+
+.action-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+.action {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    background-color: #3882F6;
+    align-items: center;
+    border-radius: 8px;
+    padding: 32px 80px;
+    gap: 24px;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+}
+
+.words .text {
+    color:#E5E7EB;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.words .subtext {
+    color:#E5E7EB;
+}
+
+.action .button {
+    border-radius: 8px;
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 16px;
+}
+
+.footer {
+    background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 32px;
 }
