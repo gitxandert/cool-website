@@ -95,7 +95,7 @@ img {
 .random-info .buttons {
     display: flex;
     justify-content: center;
-    flex-basis: 200px;
+    flex-basis: 100px;
     margin-top: 32px;
     gap: 54px;
 }
@@ -134,4 +134,28 @@ img {
     flex-direction: column;
     flex-basis: 100px;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px 350px;
+}
+
+.quotation {
+    display: flex;
+    align-self: center;
+    width: 600px;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+    font-style:  italic;
+}
+
+.citation {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
 }
